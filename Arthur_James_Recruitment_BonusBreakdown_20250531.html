@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arthur James Recruitment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f6fa;
+      color: #222;
+    }
+    header {
+      background: #1a2947;
+      color: #fff;
+      padding: 30px 0 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    header img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+    header p {
+      margin: 8px 0 0 0;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #b3c6e0;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 70px 20px 70px 20px;
+      position: relative;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(26,41,71,0.6);
+      z-index: 0;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      font-weight: 400;
+    }
+    .bonus-btn {
+      padding: 16px 32px;
+      font-size: 1.1rem;
+      background-color: #ffb400;
+      color: #222;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.2s;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    .bonus-btn:hover {
+      background-color: #f09819;
+    }
+    .branding {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 50px 0 30px 0;
+      flex-wrap: wrap;
+    }
+    .branding img {
+      width: 220px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    .about {
+      max-width: 800px;
+      margin: 0 auto 60px auto;
+      padding: 0 20px;
+      font-size: 1.1rem;
+      color: #2c3e50;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 30px;
+    }
+    footer {
+      background: #1a2947;
+      color: #b3c6e0;
+      text-align: center;
+      padding: 18px 0;
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+    @media (max-width: 700px) {
+      .branding {
+        flex-direction: column;
+        gap: 18px;
+      }
+      .branding img {
+        width: 90vw;
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=256&q=80&facepad=2.5" alt="Arthur James Recruitment Logo" />
+    <h1>Arthur James Recruitment</h1>
+    <p>Connecting Talent with Opportunity</p>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Your Partner in Professional Recruitment</h2>
+      <p>
+        We specialise in matching exceptional candidates with leading employers across the UK and beyond.<br>
+        Discover new opportunities, advance your career, and unlock your potential with Arthur James Recruitment.<br>
+	 <br>
+	See enclosed the London mid-market investment banking bonus breakdown for the fiscal year to 2025.
+      </p>
+      <button class="bonus-btn" onclick="window.location.href='https://imgur.com/a/Po3wEkF'">
+        View Bonus Breakdown
+      </button>
+    </div>
+  </section>
+
+  <div class="branding">
+    <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=400&q=80" alt="Teamwork" />
+    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Professional Office" />
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Business Success" />
+  </div>
+
+  <section class="about">
+    <h3>About Arthur James Recruitment</h3>
+    <p>
+      At Arthur James Recruitment, we believe that people are the heart of every successful business. 
+      With years of experience in the recruitment sector, our dedicated consultants work closely with both clients and candidates to ensure the perfect fit.
+      <br><br>
+      Whether you're seeking your next career move or looking for top talent to join your team, we provide a tailored, confidential, and professional service every step of the way.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Arthur James Recruitment. All rights reserved.
+  </footer>
+</body>
+</html>
